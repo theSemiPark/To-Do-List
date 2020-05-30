@@ -1,0 +1,24 @@
+.wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+.keywordBox{
+    width: 50%;
+    height: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.action-button{
+    padding: 0.5rem 1rem;
+    background: #fab005;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.action-button + .action-button{
+    margin-left: 1rem;
+}
+.action-button:hover{
+    background: #f08c00;
+}
